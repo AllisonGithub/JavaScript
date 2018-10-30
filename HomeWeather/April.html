@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="Chart.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="D:/workspace/notepad/HomeWeather/favicon.ico" />  
+
+</head>
+
+<body>
+
+<div class="head">
+<h1>HOME</h1>
+</div>
+
+<div class="left"> 
+<object padding="1px" width="100%" height="6%" background="none" data='D:/workspace/notepad/HomeWeather/sound/Bach.mp3'></object>
+<button class="left" onclick="document.getElementById('ttawa)" type="button"><span>Ottawa</span></button>
+<button class="left"><span>Toronto</span></button>
+<button class="left"><span>Kingston</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+<button class="left"><span>b1</span></button>
+</div>
+
+
+<div class="mid"> 
+<h2 id="date"></h2>
+</div>
+
+<div class="right"> 
+</div>
+<div class="w">
+<h1>weather</h1>
+</div>
+
+
+<div class="number1"> 
+<h1 class="big" >24&#176C </h1>
+
+</div>
+
+<div class="number2"> 
+<h1 class="big">50%</h1>
+</div>
+
+<div class="up">
+<canvas id="temperature">
+</canvas>
+</div>
+
+<div class="down">
+<canvas id="humidity">
+</canvas>
+</div>
+
+<script src="chart.js"></script>
+
+<div class="button">
+<button class="chart" onclick="document.getElementById('date').innerHTML = Date()" type="button"><h2>Day</h2></button>
+<button class="chart" onclick="document.getElementById('date').innerHTML = Date()" type="button"><h2>Week</h2></button>
+<button class="chart" onclick="document.getElementById('date').innerHTML = Date()" type="button"><h2>Month</h2></button>
+</div>
+
+
+</body>
+</html>

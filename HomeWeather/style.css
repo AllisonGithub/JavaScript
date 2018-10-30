@@ -1,0 +1,189 @@
+body {
+	margin:0;
+	padding:50px 0 0;
+	background-size: cover;
+	background-image:url('home.jpg'); 
+	width:100%;
+	height:100%;
+    text-align: center;
+}
+h1 {
+    color : white;
+    text-align: center;
+	padding:1vw;
+}
+h1.big{
+	color : white;
+	text-align:center;
+	font-weight: bold;
+	vertical-align:middle;
+	padding:1vw;
+}
+h2 {
+	color : white;
+	text-align:center;
+	font-weight: bold;
+	padding:0.3vw;
+}
+h3 {
+	color : white;
+	text-align:center;
+	font-weight: bold;
+	padding:0.3vw;
+}
+
+div.head{
+	position:absolute;
+	width:59.5%;
+	top:0;
+	left:10%;
+	height:12%;
+	background-color:none;
+	border-bottom:5px solid rgb(255,255,255);
+	font-size: 1vw;
+}
+div.right{
+	position:absolute;
+	width:30%;
+	height:100%;
+	top:0;
+	right:0;
+	background-color:none;
+	border-left:8px solid rgb(255,255,255);
+}
+div.left{
+	position:absolute;
+	width:10%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color:none;
+	border-right:8px solid rgb(255,255,255);
+}
+div.mid{
+	position:absolute;
+	width:59.5%;
+	height:87%;
+	top:12.5%;
+	left:10.5%;
+}
+
+div.w{
+	position:absolute;
+	width:30%;
+	top:0;
+	right:0;
+	height:12%;
+	background-color:none;
+	border-bottom:5px solid rgb(255,255,255);
+	font-size: 1vw;
+}
+div.up {
+	position:absolute;
+	top:12.7%;
+	right:0%;
+	background-color:rgba(255,255,255,0.9);
+	width: 29.3%;
+	height: 30%;
+	border:5px solid darkgoldenrod;
+}
+div.down{
+	position:absolute;
+	bottom:0%;
+	right:0%;
+	background-color:rgba(255,255,255,0.9);
+	width: 29.3%;
+	height: 30%;
+	border:5px solid darkslategray;
+}
+
+div.number1{
+	position:absolute;
+	width:11%;
+	height:22%;
+	top:44.5%;
+	right:17.9%;
+	background-color:rgba(80,30,0,0.5);
+	border:5px solid darkgoldenrod;
+	font-size: 2vw;
+}
+div.number2{
+	position:absolute;
+	width:11%;
+	height:22%;
+	top:44.5%;
+	right:6%;
+	background-color:rgba(80,30,0,0.5);
+	border:5px solid darkslategray;
+	font-size: 2vw;
+}
+div.button{
+	position:absolute;
+	width:6%;
+	height:7.75%;
+	top:44.5%;
+	right:0;
+	background-color:none;
+	text-align:center;
+}
+
+button.chart {
+    width : 100%; 
+	height: 100%;
+	background-color:rgba(80,30,0,0.5);
+	border: 5px solid rgb(80,30,0);
+	cursor: point;
+	border-radius: 20%;
+	font-size: 0.8vw;
+}
+
+button.chart:hover {
+    background-color: rgba(80,30,0,0.8);
+}
+
+button.left{
+	width : 100%; 
+	height: 5%;
+	background-color:rgba(80,30,0,0.5);
+	border: 3px solid rgb(30,10,0);
+	cursor: point;
+	margin-bottom:6px;
+	font-weight: bold;
+	font-size: 0.8vw;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	margin:1px;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+button.left:hover {
+    background-color: rgba(80,30,0,0.8);
+}
+button.left span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.left span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.left:hover span {
+  padding-right: 25px;
+}
+
+button.left:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
